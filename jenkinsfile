@@ -98,9 +98,7 @@ pipeline {
                 }
             }
 
-            environment {
-                CI_ENVIRONMENT_URL = 'https://neon-pixie-ad0ecf.netlify.app'
-            }
+        
 
             steps {
                 sh '''
